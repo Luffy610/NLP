@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "nlp"
+version = "0.1.0"
+description = ""
+authors = ["Luffy610 <dhruvkotwani@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.1.1"
+nltk = "^3.9.1"
+spacy = "^3.8.2"
+svgling = "^0.5.0"
+pandas = "^2.2.3"
+scikit-learn = "^1.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
